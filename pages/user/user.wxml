@@ -1,0 +1,12 @@
+
+<view>
+  <!-- <open-data type="userNickName"></open-data> -->
+  <open-data type="userAvatarUrl"></open-data>
+  
+  <button open-type="getUserInfo" bind:getuserinfo="buttonHandler">
+    获取个人信息
+  </button>
+  <text class="title">hello {{name}}</text>
+
+  <navigator url="../weui/button">前往中间页</navigator>
+</view>

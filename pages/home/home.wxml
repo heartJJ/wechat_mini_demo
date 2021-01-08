@@ -1,0 +1,13 @@
+<view>
+  <text class="title">{{now}}  hello {{name}}</text>
+  <button bind:tap="buttonHandler">点击</button>
+  
+   <input placeholder="输入新增事项" bind:input="inputHandler"/>
+   <button bind:tap="ensureButton">确定</button>
+
+   <text class="title" wx:for="{{items}}"> <!-- wxml自带渲染语法 -->
+    {{index}}、 {{item}}
+   </text>
+   
+   <navigator url="../weui/button">前往中间页</navigator> <!-- 无法跳转tabBar页 -->
+</view> 

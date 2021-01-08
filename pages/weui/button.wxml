@@ -1,0 +1,14 @@
+<view>
+  <button class="weui-btn weui-btn_primary">
+    主操作
+  </button>
+  <button class="weui-btn weui-btn_primary weui-btn_loading">
+    <i class="weui-loading"></i>正在加载
+  </button>
+  <button class="weui-btn weui-btn_primary weui-btn_disabled">
+    禁止点击
+  </button>
+
+  <button class="weui-btn weui-btn_primary" bind:tap="toUser">前往用户页</button>
+  <button class="weui-btn weui-btn_primary" bind:tap="toHome">前往首页</button>
+</view>

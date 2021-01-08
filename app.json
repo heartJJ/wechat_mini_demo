@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/weui/button",
+    "pages/user/user"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#cccccc",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小程序 Demo"
+  },
+  "style": "v2",
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}
